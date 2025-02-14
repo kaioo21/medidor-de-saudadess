@@ -1,0 +1,90 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9dbe7; /* Rosa claro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff; /* Branco */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    color: #d32f2f; /* Vermelho cereja */
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #333333; /* Preto */
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.slider-container {
+    margin: 20px 0;
+}
+
+input[type="range"] {
+    width: 100%;
+    -webkit-appearance: none;
+    appearance: none;
+    background: #ffcdd2; /* Rosa claro */
+    height: 10px;
+    border-radius: 5px;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+}
+
+input[type="range"]:hover {
+    opacity: 1;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #d32f2f; /* Vermelho cereja */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+input[type="range"]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: #d32f2f; /* Vermelho cereja */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#saudadesValue {
+    font-size: 1.5em;
+    color: #d32f2f; /* Vermelho cereja */
+    margin-top: 10px;
+}
+
+button {
+    background-color: #d32f2f; /* Vermelho cereja */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #b71c1c; /* Vermelho mais escuro */
+}
